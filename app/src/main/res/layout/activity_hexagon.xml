@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/status"
+        android:text="@string/status_reds_turn"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/status"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_pass" />
+
+    <TextView
+        android:id="@+id/red"
+        android:textColor="#ff0000"
+        android:text="@string/dummy_red"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pass"
+        android:layout_alignBottom="@+id/pass"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/pass"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/pass"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/blue"
+        android:textColor="#0000ff"
+        android:text="@string/dummy_blue"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pass"
+        android:layout_alignBottom="@+id/pass"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/pass"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/pass"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <com.example.temporary.hexagonalreversi.HexagonView
+        android:id="@+id/hexagon"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pass"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

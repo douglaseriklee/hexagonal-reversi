@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">Hexagonal Reversi</string>
+    <string name="title_activity_hexagon">Hexagonal Reversi</string>
+    <string name="menu_restart">New Game</string>
+    <string name="menu_size">Size</string>
+    <string name="menu_size4">Small</string>
+    <string name="menu_size5">Medium</string>
+    <string name="menu_size6">Large</string>
+    <string name="menu_level">Level</string>
+    <string name="menu_level6">Easy</string>
+    <string name="menu_level7">Medium</string>
+    <string name="menu_level8">Hard</string>
+    <string name="menu_about">About</string>
+    <string name="status_reds_turn">Red\'s turn, waiting&#8230;</string>
+    <string name="status_blues_turn">Blue\'s turn, thinking&#8230;</string>
+    <string name="status_red_won">Red won by</string>
+    <string name="status_blue_won">Blue won by</string>
+    <string name="status_tie_game">Tie game</string>
+    <string name="status_red_moving">Making move for red</string>
+    <string name="status_blue_moving">Making move for blue</string>
+    <string name="status_red_invalid">Red cannot go there</string>
+    <string name="status_red_pass">Red must pass</string>
+    <string name="status_blue_pass">Blue must pass</string>
+    <string name="button_pass">Pass</string>
+    <string name="dummy_red">3</string>
+    <string name="dummy_blue">4</string>
+    <string name="about_message">Version 1.0 &#169; 2017 Doug Lee</string>
+    <string name="about_button">OK</string>
+
+</resources>

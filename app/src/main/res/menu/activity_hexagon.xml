@@ -1,0 +1,20 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".HexagonActivity">
+    <item android:id="@+id/menu_restart" android:title="@string/menu_restart" />
+    <item android:id="@+id/menu_size" android:title="@string/menu_size">
+    <menu>
+        <item android:checkable="true" android:id="@+id/menu_size4" android:title="@string/menu_size4" />
+        <item android:checkable="true" android:id="@+id/menu_size5" android:title="@string/menu_size5" />
+        <item android:checkable="true" android:id="@+id/menu_size6" android:title="@string/menu_size6" />
+    </menu>
+    </item>
+    <item android:id="@+id/menu_level" android:title="@string/menu_level">
+        <menu>
+            <item android:checkable="true" android:id="@+id/menu_level6" android:title="@string/menu_level6" />
+            <item android:checkable="true" android:id="@+id/menu_level7" android:title="@string/menu_level7" />
+            <item android:checkable="true" android:id="@+id/menu_level8" android:title="@string/menu_level8" />
+        </menu>
+    </item>
+    <item android:id="@+id/menu_about" android:title="@string/menu_about" />
+</menu>
