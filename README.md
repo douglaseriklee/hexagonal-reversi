@@ -1,4 +1,13 @@
 # Hexagonal Reversi for Android
+                              
+## For Developers
+
+* Code contains lots of comments and is easy to understand.
+* Good example of drawing hexagonal patterns of various dimensions.
+* Good example of navigating hexagonal spaces of various dimensions.
+* Debug version can be built as is.
+* To build release version `keystore.properties` file must be adjusted.
+* See [Sign Your App](https://developer.android.com/studio/publish/app-signing.html) for details.
 
 ## For Players
 
@@ -11,12 +20,3 @@
   <img width="200" height="75" alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png'/>
 </a>
 <p>Google Play and the Google Play logo are trademarks of Google Inc.
-                              
-## For Developers
-
-* Code contains lots of comments and is easy to understand.
-* Good example of drawing hexagonal patterns of various dimensions.
-* Good example of navigating hexagonal spaces of various dimensions.
-* Debug version can be built as is.
-* To build release version `keystore.properties` file must be adjusted.
-* See [Sign Your App](https://developer.android.com/studio/publish/app-signing.html) for details.
